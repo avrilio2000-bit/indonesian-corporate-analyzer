@@ -15,10 +15,10 @@ pip install -r requirements.txt
 
 ### How to Run Locally
 1. Clone or download this repo, then open your terminal inside the project folder (or use `cd`):
-   ```bash
-   cd indonesian-corporate-analyzer
-   ```
+```bash
+cd indonesian-corporate-analyzer
+```
 2. Run the app
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+streamlit run app.py
+```
