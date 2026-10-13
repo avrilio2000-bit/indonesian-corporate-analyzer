@@ -1,31 +1,17 @@
-Indonesian Corporate Financial Analyzer
+# Indonesian Stock Analyzer
 
-A Python data analysis project that retrieves financial data for Indonesian companies using Yahoo Finance and visualizes revenue and net income over time.
+A web app built with Python and Streamlit to visualize financial performance for equities listed on the Indonesia Stock Exchange (IDX). It pulls live income statement data from Yahoo Finance to track Revenue, Net Income, and Profit Margins over time.
 
-What it does
+### Features
+* **Live IDX Integration**: Automatically formats Indonesian tickers (e.g., `AMRT`, `BBCA`, `TLKM`) to fetch live data.
+* **Financial Metrics**: Displays latest fiscal year Total Revenue, Net Income, and Profit Margin percentages.
+* **Trend Visualization**: Plots multi-year financial trends with interactive line charts.
+* **Raw Data Inspector**: Includes an expandable table to view raw figures.
 
-* Retrieves income statements directly from Yahoo Finance using `yfinance`.
-* Converts large Indonesian Rupiah (IDR) figures into trillions for better readability.
-* Uses `pandas` to process financial data and `matplotlib` to visualize revenue and net income in a bar chart.
-* Uses Alfamart (`AMRT.JK`) as an example to analyze corporate financial performance over time.
+### Requirements
+```bash
+pip install -r requirements.txt
 
-Tools Used
-
-* Python 3.x
-* `yfinance` (Financial Data Retrieval)
-* `pandas` (Data Processing & Analysis)
-* `matplotlib` (Data Visualization)
-* Yahoo Finance (Financial Data Source)
-
-How to run
-
-1. Open your terminal or command prompt.
-2. Install the required packages:
-   ```bash
-   pip install yfinance pandas matplotlib
-   ```
-3. Save the Python script to your local machine.
-4. Run the script:
-   ```bash
-   python main.py
-   ```
+How to Run Locally
+Bash
+streamlit run app.py
