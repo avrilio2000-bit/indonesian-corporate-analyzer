@@ -11,7 +11,7 @@ A web app built with Python and Streamlit to visualize financial performance for
 ### Requirements
 ```bash
 pip install -r requirements.txt
-
+```
 How to Run Locally
 Bash
 streamlit run app.py
